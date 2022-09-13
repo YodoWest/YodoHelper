@@ -34,13 +34,13 @@ u8 = encoding.UTF8
 
 update_state = false
 
-local script_vers = 1
-local script_vers_text = "1.00"
+local script_vers = 1.1
+local script_vers_text = "1.01"
 
-local update_url = "https://raw.githubusercontent.com/YodoWest/YodoWest/main/update.ini" 
+local update_url = "https://raw.githubusercontent.com/YodoWest/YodoHelper/main/update.ini" 
 local update_path = getWorkingDirectory() .. "/update.ini"
 
-local script_url = "https://github.com/YodoWest/YodoWest/blob/main/YodoWest.luac?raw=true" 
+local script_url = "https://raw.githubusercontent.com/YodoWest/YodoHelper/main/YodoWest.lua" 
 local script_path = thisScript().path
 
 local tag = "{FFFF00}[YodoHelper] {FFFFFF}By {FFFF00}Yodo_West :)"
